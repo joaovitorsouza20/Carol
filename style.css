@@ -1,0 +1,36 @@
+body{
+    background-color: #CFB5B8;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 1%;
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px black;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    color: #ff004c;
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    text-decoration: underline white;
+}
+
+h2:hover{
+    color:#f354a9;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
